@@ -1,0 +1,92 @@
+body {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(209, 209, 209, 0.445);
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.wrapp-menu {
+
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 80%;
+    border: 1px solid rgba(0, 0, 0, .1);
+    box-shadow: 0 0 1em gold;
+}
+
+.menu-top {
+    position: relative;
+    width: 100%;
+    flex: 1;
+    background-image: url('./restaurant-336660_1920.jpg');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.menu-bottom {
+
+    font-size: 18px;
+    width: 100%;
+    flex: 1.5;
+    /* flex-basis: 50%; */
+
+
+}
+
+.menu-header {
+    font-family: 'New Tegomin', serif;
+    padding-left: 10px;
+}
+
+.menu-list {
+
+    list-style: none;
+    line-height: 30px;
+    padding: 10px 20px 10px 20px;
+
+}
+
+.menu-list li {
+    font-family: 'New Tegomin', serif;
+    border-bottom: 1px solid rgba(59, 58, 58, 0.425);
+}
+
+#search {
+    font-size: 18px;
+    color: rgb(187, 15, 15);
+    position: absolute;
+    padding: 10px 50px 10px 50px;
+    top: 50%;
+    left: 50%;
+    border-radius: 15px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.623);
+    transform: translate(-50%, -50%);
+}
+
+::placeholder {
+    font-size: 18px;
+    color: rgb(187, 15, 15);
+    text-align: center;
+    font-family: 'New Tegomin', serif;
+
+    padding: 10px;
+}
+
+#search:focus {
+    outline: none;
+}
